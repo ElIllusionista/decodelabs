@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>INDEX — Task Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="flarn">
+  <span class="blorp">INDEX<span class="zt">°</span></span>
+  <span class="tik" id="tik"></span>
+  <nav class="zoop" aria-label="Section navigation">
+    <a href="#glorp">Log</a>
+    <a href="#numz">Stats</a>
+  </nav>
+  <span class="plonk"></span>
+</header>
+<main>
+  <section class="snurf">
+    <p class="wibb">(Task Log)</p>
+    <div class="globz">
+      <p>A minimal space to write down what needs doing, and cross it off when it's done.</p>
+      <a href="#noodl" class="yeet1">Jump to list ↓</a>
+    </div>
+  </section>
+  <section class="bonko">
+    <h1 class="zap1">WRITE IT.</h1>
+    <h1 class="zap1">FINISH IT.</h1>
+    <h1 class="zap1">CROSS IT OFF.</h1>
+  </section>
+  <section class="fizzbox">
+    <div class="nummy" id="nummy">0</div>
+    <p class="blah1">tasks open</p>
+  </section>
+  <section class="glorp" id="glorp">
+    <form id="frog1" class="frog1" novalidate>
+      <input type="text" id="wug" class="wug" placeholder="What needs doing?" autocomplete="off">
+      <button type="submit" class="smack" aria-label="Add task">+</button>
+    </form>
+  </section>
+  <section class="noodl" id="noodl">
+    <ol class="spag" id="spag"></ol>
+    <p class="blankz" id="blankz">Nothing logged yet. Add your first line above.</p>
+  </section>
+  <section class="numz" id="numz">
+    <div class="barp">
+      <div class="fillz" id="fillz"></div>
+      <span class="labl" id="labl">0%</span>
+    </div>
+    <div class="rowz">
+      <span id="donez">0 done</span>
+      <span id="totz">0 total</span>
+    </div>
+  </section>
+</main>
+<footer class="bott">
+  <span>DecodeLabs Internship · Task 01</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
